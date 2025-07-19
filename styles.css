@@ -65,6 +65,11 @@ h2 {
 
 .quote-container {
     background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
