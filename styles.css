@@ -43,13 +43,24 @@ h2 {
 .item-container {
     display: flex;
     justify-content: center;
-    padding: 25px 200px 200px;
-    gap: 128px;
+    gap: 52px;
+    padding-bottom: 100px;
 }
 
 .item {
-    width: 500px;
-    height: 500px;
+    max-width: 200px;
+}
+
+.item > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    border: 1px solid blue;
+    padding: 16px;
+}
+
+.text {
+    text-align: center;
 }
 
 .quote-container {
