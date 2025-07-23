@@ -26,6 +26,10 @@ h1 {
 
 h2 {
     text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 16px;
 }
 
 h3 {
@@ -37,11 +41,11 @@ ul {
     display: flex;
     gap: 50px;
     font-size: 18px;
+    color: #cccccc;
 }
 
 a {
     text-decoration: none;
-    color: #cccccc;
 }
 
 /* HEADER */
@@ -115,12 +119,14 @@ a {
     width: 150px;
     height: 150px;
     border-radius: 25px;
-    border: 1px solid blue;
+    border: 3px solid #3882F6;
     padding: 16px;
 }
 
 .text {
     text-align: center;
+    font-size: 18px;
+    color: #575757;
 }
 
 /* QUOTE CONTAINER */
